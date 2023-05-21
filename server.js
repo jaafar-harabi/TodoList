@@ -14,6 +14,6 @@ app.use('/todo',todoRouter) ;
 
 
 
-app.listen(PORT,()=>{
+app.listen(process.env.PORT,()=>{
     console.log('Connected To Port')
 })
